@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+/* Header */
+.header{
+    background-color: navy;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 170px;
+}
+.header ul{
+    display: flex;
+    justify-content: space-around;
+    gap:15px;
+}
+
+/* Hero */
+.hero{
+    display: flex;
+    padding: 100px 170px;
+    justify-content: space-around;
+    color: white;
+    background-color: navy;
+}
+.hero .intro{
+    max-width: 500px;
+}
+.hero img{
+    max-width: 500px;
+}
+
+/* Services */
+.services h1{
+    text-align: center;
+    padding: 50px 0;
+}
+.services .cards{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    text-align: center;
+}
+.card p{
+    max-width: 200px;
+}
+.services div img{
+   max-width: 200px;
+}
+
+/* Testomiial */
+.testimonial{
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+.testimonial p{
+    max-width: 500px;
+}
+
+/* CTA */
+.cta{
+    margin: 100px;
+    background-color: navy;
+    padding: 30px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 7px;;
+}
+
+footer{
+    text-align: center;
+    padding: 30px;
+    background-color: navy;
+    color: white;
+}
